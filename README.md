@@ -57,3 +57,9 @@ Python · TensorFlow · Keras · NumPy · Matplotlib
 ## Notebook
 
 The complete implementation, training procedure, evaluation, and qualitative results are available in [`neural_jigsaw_reconstruction.ipynb`](neural_jigsaw_reconstruction.ipynb).
+
+## Reproducibility
+
+The notebook can be run in Google Colab. The trained model weights are
+downloaded automatically using `gdown`, allowing the reported test results
+and qualitative reconstructions to be reproduced without retraining the model.
